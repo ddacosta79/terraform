@@ -23,7 +23,7 @@
     "description": "unique name of provisioned cloud service",
     "hidden": false,
     "immutable": false,
-    "label": "name of cloudand Service",
+    "label": "name of DSX Service",
     "name": "name",
     "required": true,
     "secured": false,

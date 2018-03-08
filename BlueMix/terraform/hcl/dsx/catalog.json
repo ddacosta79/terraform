@@ -1,6 +1,6 @@
 {
    "name": "IBM Cloud PaaS - Hadoop",
-   "description": "IBM Cloud PaaS - Hadoop",
+   "description": "IBM Cloud PaaS - DSX",
    "version": "1.0.0",
    "imageUrl": "./assets/svg/IBM_WebSphere_Standalone.svg",
    "image": "tp_WAS_standalone.png",
@@ -23,8 +23,8 @@
      }
    },
    "metadata": {
-     "displayName": "IBM Analytic Engine Hadoop",
+     "displayName": "IBM Data Science Experience",
      "providerDisplayName": "IBM",
-     "longDescription": "Deploys a hybrid cloud LAMP Stack (Linux, Apache, MySQL, PHP) across AWS and IBM Cloud providing a complete development environment. This deployment also deploys a simple sample application to validate the stack is operational."
+     "longDescription": "Deploys Data Science Experience environment"
    }
  }
