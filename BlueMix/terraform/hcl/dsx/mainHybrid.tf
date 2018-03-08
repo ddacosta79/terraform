@@ -14,7 +14,7 @@ variable "name" {
 resource "ibm_service_instance" "service_instance" {
   name       = "${var.name}"
   space_guid = "${data.ibm_space.spacedata.id}"
-  service    = "IBMAnalyticsEngine"
-  plan       = "lite"
+  service    = "data-science-experience"
+  plan       = "free-v1"
   tags       = ["cluster-service", "cluster-bind"]
 }
