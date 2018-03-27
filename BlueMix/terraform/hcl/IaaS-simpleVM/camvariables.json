@@ -1,0 +1,53 @@
+[
+  {
+    "description": "Softlayer datacenter where infrastructure resources will be deployed",
+    "hidden": false,
+    "immutable": false,
+    "label": "SoftLayer Data Center",
+    "name": "datacenter",
+    "required": true,
+    "secured": false,
+    "type": "string",
+    "options": [
+      {
+        "value": "ams01",
+        "label": "Amsterdam 01, The Netherlands"
+      },
+      {
+        "value": "ams03",
+        "label": "Amsterdam 03, The Netherlands"
+      },
+      {
+        "value": "fra02",
+        "label": "Frankfurt, Germany"
+      },
+      {
+        "value": "lon02",
+        "label": "London, England"
+      },
+      {
+        "value": "mil01",
+        "label": "Milan, Italy"
+      },
+      {
+        "value": "osl01",
+        "label": "Oslo, Norway"
+      },
+      {
+        "value": "par01",
+        "label": "Paris, France"
+      }
+    ]
+  },
+  {
+    "description": "Hostname of the virtual instance to be deployed; Allow 1 to 200 alphanumeric characters and non-consecutive non-leading non-ending dashes",
+    "hidden": false,
+    "immutable": false,
+    "label": "Hostname",
+    "name": "hostname",
+    "required": true,
+    "secured": false,
+    "type": "string",
+    "regex": "^(?!(.*(--)))([A-Za-z0-9]{1,2}|[A-Za-z0-9][A-Za-z0-9-]{1,198}[A-Za-z0-9])$"
+  }
+]

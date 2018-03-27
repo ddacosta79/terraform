@@ -1,0 +1,32 @@
+[
+  {
+    "description": "IBM Cloud Services Organization Space",
+    "hidden": false,
+    "immutable": false,
+    "label": "IBM Cloud Service Organization Space",
+    "name": "space",
+    "required": true,
+    "secured": false,
+    "type": "string",
+    "options": [
+      {
+        "value": "Dev",
+        "label": "development space"
+      },
+      {
+        "value": "Prod",
+        "label": "Production space"
+      }
+    ]
+  },
+  {
+    "description": "unique name of provisioned cloud service",
+    "hidden": false,
+    "immutable": false,
+    "label": "name of Watson IoT Service",
+    "name": "name",
+    "required": true,
+    "secured": false,
+    "type": "string"
+  }
+]
