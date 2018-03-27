@@ -1,9 +1,9 @@
 [
   {
-    "description": "IBM Cloud Services Organization Space",
+    "description": "Area de trabalho",
     "hidden": false,
     "immutable": false,
-    "label": "IBM Cloud Service Organization Space",
+    "label": "Area de trabalho",
     "name": "space",
     "required": true,
     "secured": false,
@@ -20,10 +20,10 @@
     ]
   },
   {
-    "description": "unique name of provisioned cloud service",
+    "description": "Nome unico of provisioned cloud service",
     "hidden": false,
     "immutable": false,
-    "label": "name of cloudand Service",
+    "label": "Nome Serviço cloudand",
     "name": "name",
     "required": true,
     "secured": false,

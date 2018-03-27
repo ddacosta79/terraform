@@ -1,6 +1,6 @@
 {
    "name": "IBM Cloud PaaS - Cloudant NoSQL",
-   "description": "IBM Cloud PaaS - Cloudant NoSQL Database Lite service",
+   "description": "IBM Cloud PaaS - Cloudant NoSQL Database - Lite service",
    "version": "1.0.0",
    "imageUrl": "./assets/svg/IBM_WebSphere_Standalone.svg",
    "image": "tp_WAS_standalone.png",
@@ -18,7 +18,7 @@
      "template_source": {
        "githubRepoUrl": "",
        "githubAccessToken": "",
-       "relativePathToTemplateFolder": "BlueMix/terraform/hcl/lamp-hybrid",
+       "relativePathToTemplateFolder": "BlueMix/terraform/hcl/Cloudant",
        "templateFileName": "mainHybrid.tf"
      }
    },
