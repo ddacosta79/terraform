@@ -1,6 +1,6 @@
 {
-   "name": "IBM Cloud PaaS - Hadoop",
-   "description": "IBM Cloud PaaS - DSX",
+   "name": "IBM Cloud PaaS - Cloudant NoSQL",
+   "description": "IBM Cloud PaaS - Cloudant NoSQL Database Lite service",
    "version": "1.0.0",
    "imageUrl": "./assets/svg/IBM_WebSphere_Standalone.svg",
    "image": "tp_WAS_standalone.png",
@@ -9,7 +9,7 @@
    "manifest": {
      "template_type": "Terraform",
      "template_format": "HCL",
-     "template_provider": "ddacosta79",
+     "template_provider": "ddacosta",
      "template": {
        "templateData": "",
        "templateVariables": "",
@@ -23,8 +23,24 @@
      }
    },
    "metadata": {
-     "displayName": "IBM Data Science Experience",
+     "displayName": "Cloudant NoSQL DB",
      "providerDisplayName": "IBM",
-     "longDescription": "Deploys Data Science Experience environment"
+     "longDescription": "Cloudant NoSQL DB provides access to a fully managed NoSQL JSON data layer that's always on. This service is compatible with CouchDB, and accessible through a simple to use HTTP interface for mobile and web application models",
+     "bullets": [
+       {
+         "title": "Lite",
+         "description": "	Free of charge"
+       },
+       {
+         "title": "Storage",
+         "description": "	1 GB of data storage"
+       },
+       {
+         "title": "Provisioned throughput capacity",
+         "description": "20 Lookups/sec
+10 Writes/sec
+5 Queries/sec"
+       }
+     ]
    }
  }
