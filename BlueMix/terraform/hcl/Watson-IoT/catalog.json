@@ -1,0 +1,30 @@
+{
+   "name": "IBM Cloud PaaS - Hadoop",
+   "description": "IBM Cloud PaaS - DSX",
+   "version": "1.0.0",
+   "imageUrl": "./assets/svg/IBM_WebSphere_Standalone.svg",
+   "image": "tp_WAS_standalone.png",
+   "type": "prebuilt",
+   "status": "active",
+   "manifest": {
+     "template_type": "Terraform",
+     "template_format": "HCL",
+     "template_provider": "ddacosta79",
+     "template": {
+       "templateData": "",
+       "templateVariables": "",
+       "templateOutput": ""
+     },
+     "template_source": {
+       "githubRepoUrl": "",
+       "githubAccessToken": "",
+       "relativePathToTemplateFolder": "BlueMix/terraform/hcl/lamp-hybrid",
+       "templateFileName": "mainHybrid.tf"
+     }
+   },
+   "metadata": {
+     "displayName": "IBM Data Science Experience",
+     "providerDisplayName": "IBM",
+     "longDescription": "Deploys Data Science Experience environment"
+   }
+ }
