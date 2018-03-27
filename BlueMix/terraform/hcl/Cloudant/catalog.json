@@ -37,9 +37,7 @@
        },
        {
          "title": "Provisioned throughput capacity",
-         "description": "20 Lookups/sec
-10 Writes/sec
-5 Queries/sec"
+         "description": "20 Lookups/sec, 10 Writes/sec, 5 Queries/sec"
        }
      ]
    }
