@@ -2,7 +2,7 @@
 # Define the ibmcloud provider
 #########################################################
 provider "ibm" {
-  version = "~> 0.6"
+  version = "~> 0.5"
 }
 
 #########################################################
@@ -38,13 +38,13 @@ resource "ibm_service_instance" "service_instance" {
 # Output
 #########################################################
 output "The Cloudant service ID" {
-  value = "${ibm_service_instance.id}"
+  value = "${ibm_service_instance.service_instance.id}"
 }
 
 output "The Cloudant Service Credentials" {
-  value = "${ibm_service_instance.credentials}"
+  value = "${ibm_service_instance.service_instance.credentials}"
 }
 
 output "The Cloudant Service Keys" {
-  value = "${ibm_service_instance.service_keys}"
+  value = "${ibm_service_instance.service_instance.service_keys}"
 }
