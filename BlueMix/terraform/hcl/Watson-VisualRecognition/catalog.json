@@ -1,6 +1,6 @@
 {
-   "name": "IBM Cloud PaaS - Hadoop",
-   "description": "IBM Cloud PaaS - DSX",
+   "name": "IBM Cloud PaaS - Watson Visual Recognition",
+   "description": "IBM Cloud PaaS - Watson Visual Recognition",
    "version": "1.0.0",
    "imageUrl": "./assets/svg/IBM_WebSphere_Standalone.svg",
    "image": "tp_WAS_standalone.png",
@@ -9,7 +9,7 @@
    "manifest": {
      "template_type": "Terraform",
      "template_format": "HCL",
-     "template_provider": "ddacosta79",
+     "template_provider": "ddacosta",
      "template": {
        "templateData": "",
        "templateVariables": "",
@@ -23,8 +23,8 @@
      }
    },
    "metadata": {
-     "displayName": "IBM Data Science Experience",
+     "displayName": "IBM Watson Visual Recognition",
      "providerDisplayName": "IBM",
-     "longDescription": "Deploys Data Science Experience environment"
+     "longDescription": "Deploys IBM Watson Visual Recognition service API"
    }
  }
