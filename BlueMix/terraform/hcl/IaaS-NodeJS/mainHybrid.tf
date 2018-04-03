@@ -67,7 +67,6 @@ provisioner "remote-exec" {
     "chmod +x /tmp/installation.sh; bash /tmp/installation.sh",
   ]
 }
-}
 
 #########################################################
 # Output
