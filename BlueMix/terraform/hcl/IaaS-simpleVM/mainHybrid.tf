@@ -8,3 +8,10 @@ network_speed = 10
 cores = 1
 memory = 1024
 }
+
+#########################################################
+# Output
+#########################################################
+output "The server IP" {
+  value = "${ibm_compute_vm_instance.ipv4_address_private}"
+}
