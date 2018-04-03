@@ -12,7 +12,7 @@ variable "hostname" {
 
 
 # Create a virtual server
-resource "ibm_compute_vm_instance" "edpserver01" {
+resource "ibm_compute_vm_instance" "myserver" {
 hostname                 = "${var.hostname}"
 domain = "example.com"
 os_reference_code = "CENTOS_6_64"
@@ -26,5 +26,5 @@ memory = 1024
 # Output
 #########################################################
 output "The server IP" {
-  value = "${ibm_compute_vm_instance.ipv4_address_private}"
+  value = "${ibm_compute_vm_instance.myserver.ipv4_address_private}"
 }
