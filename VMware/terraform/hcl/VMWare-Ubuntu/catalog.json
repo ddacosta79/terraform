@@ -1,5 +1,5 @@
 {
-  "name": "SingleVMWareMachine - Ubuntu",
+  "name": "VMWare - SingleMachine Ubuntu",
   "description": "Create a VMWare Virtual Machine with Ubuntu",
   "type": "prebuilt",
   "version": "1.0.0",
