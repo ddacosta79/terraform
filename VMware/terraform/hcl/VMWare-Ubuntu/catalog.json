@@ -21,6 +21,28 @@
   },
   "metadata": {
       "displayName": "SingleVMWareMachine - Ubuntu",
-      "longDescription": "Create a VMWare Virtual Machine with Ubuntu"
+      "longDescription": "Create a VMWare Virtual Machine with Ubuntu",
+      "bullets": [
+        {
+          "title": "Clouds",
+          "description": "VMware"
+        },
+        {
+          "title": "Template version",
+          "description": "V1.0"
+        },
+        {
+          "title": "Operating systems supported",
+          "description": "Ubuntu"
+        },
+        {
+          "title": "Topology",
+          "description": "VMware: 1 virtual machine"
+        },
+        {
+          "title": "Default virtual machine settings",
+          "description": "<ul><li>VMware:<ul style=\"margin-left: 20px;\"><li>Flavor:<ul style=\"margin-left: 20px;\"><li>Cores - 1</li><li>Memory - 1GB</li><li>Storage - Depends on Image</li></ul></li><li>Network:<ul style=\"margin-left: 20px;\"><li>Private IP:<ul style=\"margin-left: 20px;\"><li>Availability - Customer Provided</li><li>Ingress - Via VPN</li><li>Egress - Allows HTTP to all destinations</li></ul></li><li>Public IP:<ul style=\"margin-left: 20px;\"><li>Availability - None</li></ul></li></ul></li><li>Firewall:<ul style=\"margin-left: 20px;\"><li>Ingress - Allows SSH from all sources</li><li>Egress - All</li></ul></li></ul></li></ul>"
+        }
+      ]
   }
 }
