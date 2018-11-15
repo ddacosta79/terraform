@@ -20,7 +20,7 @@
     }
   },
   "metadata": {
-      "displayName": "SingleVMWareMachine - Ubuntu",
+      "displayName": "VMWare - SingleMachine Ubuntu",
       "longDescription": "Create a VMWare Virtual Machine with Ubuntu",
       "bullets": [
         {
