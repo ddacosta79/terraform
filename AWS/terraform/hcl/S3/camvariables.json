@@ -1,0 +1,13 @@
+[
+  {
+    "description": "AWS S3 bucket name",
+    "hidden": false,
+    "immutable": false,
+    "label": "AWS S3 Bucket Name",
+    "name": "aws_s3_bucket_name",
+    "required": true,
+    "secured": false,
+    "type": "string",
+    "default": "mybucket"
+  }
+]
